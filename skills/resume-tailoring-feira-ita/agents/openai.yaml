@@ -1,0 +1,5 @@
+interface:
+  display_name: "Currículos — Feira de Carreiras ITA"
+  short_description: "Pesquisa empresas e gera currículos fortes em português brasileiro."
+  default_prompt: "Pesquise esta empresa e gere meu currículo e briefing para a feira:"
+

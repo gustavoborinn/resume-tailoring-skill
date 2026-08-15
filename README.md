@@ -6,6 +6,37 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Adaptação para a Feira de Carreiras do ITA
+
+Este fork preserva integralmente a skill original e acrescenta
+`skills/resume-tailoring-feira-ita/`, uma variante em português brasileiro para uso rápido em
+feiras de carreiras.
+
+Principais adaptações:
+
+- aceita apenas o nome da empresa, sem exigir descrição de vaga;
+- pesquisa a empresa e infere a área de estágio técnico com maior aderência;
+- escreve diretamente em português brasileiro e executa duas revisões linguísticas;
+- utiliza um perfil-mestre factual com regras contra títulos ou resultados inflados;
+- gera currículo, relatório de matching e briefing para conversa com recrutadores;
+- anexa os arquivos à conversa móvel e pode salvar cópias no Google Drive;
+- mantém o workflow original de pesquisa, descoberta ramificada, scoring e processamento em lote.
+
+Para o Claude web/mobile, baixe o pacote da release e envie em
+`Customize > Skills > Create skill > Upload a skill`.
+
+Antes de empacotar, copie `references/perfil-mestre.example.md` para
+`references/perfil-mestre.md` e preencha seus dados. Esse arquivo é ignorado pelo Git para evitar
+a publicação acidental de telefone, e-mail e histórico pessoal.
+
+Exemplo no Projeto da feira:
+
+```text
+Embraer
+```
+
+A skill pesquisa a empresa, gera os arquivos em português brasileiro e entrega o PDF na conversa.
+
 ## Table of Contents
 
 - [Overview](#overview)

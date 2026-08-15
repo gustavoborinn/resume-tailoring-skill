@@ -16,5 +16,8 @@ test-outputs/
 *~
 .claude/settings.local.json
 
+# Perfil pessoal privado da variante para feiras
+skills/resume-tailoring-feira-ita/references/perfil-mestre.md
+
 # Git worktrees
 .worktrees/
