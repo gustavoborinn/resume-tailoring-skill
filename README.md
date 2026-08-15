@@ -22,12 +22,12 @@ Principais adaptações:
 - anexa os arquivos à conversa móvel e pode salvar cópias no Google Drive;
 - mantém o workflow original de pesquisa, descoberta ramificada, scoring e processamento em lote.
 
-Para o Claude web/mobile, baixe o pacote da release e envie em
-`Customize > Skills > Create skill > Upload a skill`.
-
 Antes de empacotar, copie `references/perfil-mestre.example.md` para
 `references/perfil-mestre.md` e preencha seus dados. Esse arquivo é ignorado pelo Git para evitar
 a publicação acidental de telefone, e-mail e histórico pessoal.
+
+Depois, compacte a pasta `skills/resume-tailoring-feira-ita/` e envie o ZIP em
+`Customize > Skills > Create skill > Upload a skill`.
 
 Exemplo no Projeto da feira:
 
